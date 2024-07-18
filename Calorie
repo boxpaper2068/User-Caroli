@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zw-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://d.line-scdn.net/liff/1.0/sdk.js"></script>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <div class="row" style="margin: 10px">
+        <div class="col-12" style="margin: 10px">
+            
+            <p class="fw-bold">口味</p>
+            <select id="taste" class="form-select">
+                <option>清淡</option>
+                <option>中等</option>
+                <option>重口味</option>
+            </select>
+            <br />
+            
+            <p class="fw-bold">體重</p>
+            <input type="text" id="name" class="form-control" />
+            <br />
+            
+    
+            <p class="fw-bold">工作量</p>
+            <select id="work" class="form-select">
+                <option>輕度工作</option>
+                <option>中度工作</option>
+                <option>重度工作</option>
+            </select>
+            <br />
+
+            <div class="d-grid gap-2 col-3 mx-auto">
+                <button class="btn btn-success" id="save">儲存</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
